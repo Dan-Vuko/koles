@@ -1,0 +1,564 @@
+<!-- HTML BOILERPLATE DOCTYPE START -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modern</title>
+  </head>
+
+  <style type="text/css">
+    @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700&display=swap");
+
+    /*  CSS HEX 
+--imperial-red: #e63946;
+--fire-engine-red: #c81927;
+
+*/
+    body {
+      margin: 0;
+      background-color: #cccccc;
+    }
+    table {
+      border-spacing: 0;
+    }
+    td {
+      padding: 0;
+    }
+    img {
+      border: 0;
+    }
+
+    .wrapper {
+      /* width takes up 100% */
+      width: 100%;
+      /* This makes sure the table tag isn't any wider than the center tag it's inside of */
+      table-layout: fixed;
+      background-color: #cccccc;
+      padding-bottom: 60px;
+    }
+
+    .main {
+      background-color: #ffffff;
+      border-radius: 8px;
+      margin: 0 auto;
+      max-width: 600px;
+      width: 100%;
+      border-spacing: 0;
+    }
+
+    .social {
+      width: 600px;
+      text-align: right;
+      background-color: #ffffff;
+      border-radius: 8px 8px 0 0;
+      margin: 0 auto;
+      padding: 10px 10px 0px 10px;
+    }
+
+    .soc_img {
+      width: 25px;
+    }
+
+    .one_column {
+      background-color: #ffffff;
+      width: 600px;
+      max-width: 600px;
+      text-align: left;
+    }
+
+    .nav-bar {
+      background-color: #e63946;
+      max-width: 600px;
+      width: 100%;
+    }
+
+    .btn {
+      background-color: #ffffff;
+      border-radius: 20px;
+      display: inline-block;
+      cursor: pointer;
+      color: #c81927;
+      font-family: "Lato", sans-serif;
+      font-size: 16px;
+      padding: 10px 25px;
+      text-decoration: none;
+      margin-bottom: 20px;
+    }
+    .btn-red {
+      background-color: #c81927;
+      border-radius: 20px;
+      display: inline-block;
+      cursor: pointer;
+      color: #ffffff;
+      font-family: "Lato", sans-serif;
+      font-size: 16px;
+      padding: 10px 25px;
+      text-decoration: none;
+    }
+    .btn-red-outline {
+      background-color: #ffffff;
+      border: 1px solid #c81927;
+      border-radius: 20px;
+      display: inline-block;
+      cursor: pointer;
+      color: #c81927;
+      font-family: "Lato", sans-serif;
+      font-size: 16px;
+      padding: 10px 25px;
+      text-decoration: none;
+    }
+
+    .two-columns {
+      text-align: center;
+      font-size: 0;
+    }
+    .two-columns .column {
+      width: 100%;
+      max-width: 300px;
+      display: inline-block;
+      vertical-align: top;
+      text-align: center;
+    }
+    .two-columns .padding {
+      padding: 20px;
+    }
+    .two-columns .content {
+      font-size: 15px;
+      line-height: 20px;
+      text-align: center;
+    }
+
+    @media screen and (max-width: 455px) {
+      .two-columns .column {
+        width: 100%;
+        max-width: 300px;
+        display: inline;
+        text-align: center;
+      }
+      .prawns {
+        max-width: 400px;
+      }
+    }
+  </style>
+
+  <body>
+    <!-- Wrapper -->
+    <center class="wrapper">
+      <table class="main" width="100%">
+        <!-- START TOP BORDER // SOCIALS -->
+        <tr>
+          <td class="social">
+            <table width="100%">
+              <a href="#" style="text-decoration: none">
+                <img
+                  class="soc_img"
+                  src="https://cdn1.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Facebook_svg-512.png"
+                  alt="Facebook"
+                  title="Facebook"
+                />
+              </a>
+              <a href="#" style="text-decoration: none">
+                <img
+                  class="soc_img"
+                  src="https://cdn1.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Twitter_svg-512.png"
+                  alt="Twitter"
+                  title="Twitter"
+                />
+              </a>
+              <a href="#" style="text-decoration: none">
+                <img
+                  class="soc_img"
+                  src="https://cdn1.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Youtube_svg-512.png"
+                  alt="Youtube"
+                  title="Youtube"
+                />
+              </a>
+              <a href="#" style="text-decoration: none">
+                <img
+                  class="soc_img"
+                  src="https://cdn1.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Instagram_svg-512.png"
+                  alt="Instagram"
+                  title="Instagram"
+                />
+              </a>
+              <a href="#" style="text-decoration: none">
+                <img
+                  class="soc_img"
+                  src="https://cdn1.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Linkedin_svg-512.png"
+                  alt="LinkedIn"
+                  title="LinkedIn"
+                />
+              </a>
+            </table>
+          </td>
+        </tr>
+        <!-- END TOP BORDER // SOCIALS -->
+        <!-- START LOGO -->
+        <tr>
+          <td style="padding: 0">
+            <table width="100%" class="one_column">
+              <h1
+                style="
+                  color: #e63946;
+                  font-family: 'Lato', sans-serif;
+                  font-size: 40px;
+                  margin: 0 auto;
+                  padding: 0px 25px 0px 25px;
+                "
+              >
+                koles
+              </h1>
+            </table>
+          </td>
+        </tr>
+        <!-- END LOGO -->
+        <!-- START NAVBAR-MENU -->
+        <tr>
+          <td style="background-color: #c81927">
+            <table width="100%" class="nav-bar">
+              <tr>
+                <td
+                  style="
+                    text-align: center;
+                    padding: 5px;
+                    background-color: #c81927;
+                  "
+                >
+                  <a
+                    style="
+                      text-decoration: none;
+                      color: #ffffff;
+                      font-family: 'Lato', sans-serif;
+                      font-weight: bold;
+                    "
+                    href="#"
+                    >View Catalogue</a
+                  >
+                </td>
+                <td style="text-align: center; background-color: #c81927">
+                  <a
+                    style="
+                      text-decoration: none;
+                      color: #ffffff;
+                      font-family: 'Lato', sans-serif;
+                      font-weight: bold;
+                    "
+                    href="#"
+                    >View Specials</a
+                  >
+                </td>
+                <td style="text-align: center; background-color: #c81927">
+                  <a
+                    style="
+                      text-decoration: none;
+                      color: #ffffff;
+                      font-family: 'Lato', sans-serif;
+                      font-weight: bold;
+                    "
+                    href="#"
+                    >Shop Online</a
+                  >
+                </td>
+                <td style="text-align: center; background-color: #c81927">
+                  <a
+                    style="
+                      text-decoration: none;
+                      color: #ffffff;
+                      font-family: 'Lato', sans-serif;
+                      font-weight: bold;
+                    "
+                    href="#"
+                    >Download the App</a
+                  >
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!-- END NAVBAR-MENU -->
+        <!-- START HERO SECTION -->
+        <tr>
+          <td
+            align="center"
+            width="600"
+            height="350"
+            style="background-color: #e63946"
+          >
+            <img
+              src="https://cdn3.iconfinder.com/data/icons/ingredients-of-a-good-life/1000/food___good_dining_dine_out_meal_sushi_culture_woman_outing_senses_taste-256.png"
+              alt=""
+            />
+            <h1 style="color: #ffffff; font-family: 'Lato', sans-serif">
+              THIS WEEKS SPECIALS
+            </h1>
+            <h5 style="color: #ffffff; font-family: 'Lato', sans-serif">
+              AVAILABLE FROM 21 MARCH TO 29 MARCH
+            </h5>
+            <a href="#" class="btn">View Catalogue</a>
+          </td>
+        </tr>
+        <!-- END HERO SECTION -->
+        <!-- START BORDER -->
+        <tr>
+          <td height="8px" style="background-color: #cccccc"></td>
+        </tr>
+        <!-- END BORDER -->
+        <!-- START TWO COLUMNS -->
+        <tr>
+          <td style="background-color: #ffffff">
+            <table width="100%">
+              <tr>
+                <td class="two-columns">
+                  <!-- COLUMN 1 -->
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <h1
+                                style="
+                                  font-size: 22px;
+                                  font-family: 'Lato', sans-serif;
+                                  margin: 0 auto;
+                                "
+                              >
+                                Hi Steven,
+                              </h1>
+                              <p
+                                style="
+                                  font-size: 20px;
+                                  font-family: 'Lato', sans-serif;
+                                  padding: 20px;
+                                "
+                              >
+                                Check out our catalogue for half price specials,
+                                local fresh produce, and all your grocery needs.
+                              </p>
+                              <a href="#" class="btn-red">View Catalogue</a>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  <!-- COLUMN 1 END -->
+                  <!-- COLUMN 2 -->
+
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <img
+                                style="
+                                  margin-right: auto;
+                                  margin-left: auto;
+                                  display: block;
+                                  width: 50%;
+                                "
+                                src="https://static0.tiendeo.com.au/images/tiendas/76/catalogos/362271/paginas/mid2/00001.jpg"
+                                alt=""
+                              />
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  <!-- COLUMN 2 END -->
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!-- END TWO COLUMNS -->
+        <!-- START BORDER -->
+        <tr>
+          <td height="8px" style="background-color: #cccccc"></td>
+        </tr>
+        <!-- END BORDER -->
+        <!-- START TWO COLUMNS 2 -->
+        <tr>
+          <td style="background-color: #ffffff">
+            <table width="100%">
+              <tr>
+                <td class="two-columns">
+                  <!-- COLUMN 1 -->
+                  <table class="column" style="padding: 20px">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <img
+                                class="prawns"
+                                style="width: 100%; height: auto"
+                                src="https://img.bestrecipes.com.au/D6YHlxU8/w643-h428-cfill-q90/br/2016/11/garlic-prawn-salad-wonton-cups-508045-1.jpg"
+                                alt=""
+                              />
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  <!-- COLUMN 1 END -->
+                  <!-- COLUMN 2 -->
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <h1
+                                style="
+                                  font-size: 20px;
+                                  font-family: 'Lato', sans-serif;
+                                  margin: 0 auto;
+                                "
+                              >
+                                Freshly Cooked Black Tiger Prawns!
+                              </h1>
+                              <p
+                                style="
+                                  font-size: 20px;
+                                  font-family: 'Lato', sans-serif;
+                                  padding: 0px;
+                                "
+                              >
+                                Kick off a feast with a sensational starter!
+                                Ethically sourced King Black Tiger Prawns are on
+                                special now*.
+                              </p>
+                              <a href="#" class="btn-red-outline">Shop Now!</a>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  <!-- COLUMN 2 END -->
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!-- END TWO COLUMNS 2 -->
+        <!-- START BORDER -->
+        <tr>
+          <td height="8px" style="background-color: #cccccc"></td>
+        </tr>
+        <!-- END BORDER -->
+        <!-- START SECOND RED PART -->
+        <tr>
+          <td
+            align="center"
+            width="600"
+            height="120"
+            style="background-color: #e63946"
+          >
+            <h2
+              style="
+                color: #ffffff;
+                font-family: 'Lato', sans-serif;
+                padding: 0 0 20px 0;
+                margin: 0 auto;
+              "
+            >
+              ADD A LITTLE FLAVOUR
+            </h2>
+            <h5
+              style="
+                color: #ffffff;
+                font-family: 'Lato', sans-serif;
+                padding: 0;
+                margin: 0 auto;
+              "
+            >
+              IN YOUR LIFE
+            </h5>
+          </td>
+        </tr>
+        <tr>
+          <td height="30px" style="background-color: #c81927">
+            <h4
+              style="
+                color: #ffffff;
+                text-align: center;
+                margin: 0 auto;
+                padding: 0;
+                font-family: 'Lato', sans-serif;
+              "
+            >
+              Find specials and recipe inspiration at Koles & Koles&Co.
+            </h4>
+          </td>
+        </tr>
+        <!-- END SECOND RED PART -->
+        <!-- START BORDER -->
+        <tr>
+          <td height="8px" style="background-color: #cccccc"></td>
+        </tr>
+        <!-- END BORDER -->
+        <!-- FOOTER -->
+        <tr>
+          <td
+            valign="top"
+            align="center"
+            width="600"
+            height="200"
+            style="background-color: #494949;"
+          >
+            <p
+              style="
+                text-align: center;
+                vertical-align: top;
+                padding: 10px 0;
+                margin: 0 auto;
+                font-family: 'Lato', sans-serif;
+                color: #ffffff;
+                font-weight: 300;
+              "
+            >
+              Privacy Policy | Customer Agreement | Unsubscribe | View Online
+            </p>
+            <p
+              class="footer-p"
+              style="
+                text-align: left;
+                font-size: 14px;
+                vertical-align: top;
+                padding: 20px;
+                margin: 0 auto;
+                font-family: 'Lato', sans-serif;
+                color: #aaaaaa;
+                font-weight: 300;
+              "
+            >
+              You are receiving this email because you previously indicated your
+              preference to accept Koles communications with the email
+              xxxx@xxxx.com. This email is personalised to you. To protect your
+              privacy, we recommend that you do not forward or otherwise
+              distribute this email.
+              <br />
+              <br />
+              If you no longer wish to recieve emails from Koles, you can
+              <span style="text-decoration: underline"
+                >unsubscribe from our mailing list,</span
+              >
+              please note that we'll still send you communications related to
+              your online account. If you have an enquiry about privacy or why
+              you recieved this email, please refer to our
+              <span style="text-decoration: underline">Privacy Policy. </span>
+            </p>
+          </td>
+        </tr>
+        <!-- END FOOTER -->
+      </table>
+    </center>
+  </body>
+</html>
